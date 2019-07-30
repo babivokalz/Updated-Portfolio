@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wendy's Profile</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+
+</head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+        <div class="preloader-animation">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+        <!-- Header -->
+        <header id="site_header" class="header mobile-menu-hide">
+            <div class="profile-pic">
+                <img src="assets/images/FB profile pic selfie.jpg" alt="image">
+                <div class="mask"></div>
+            </div>
+
+            <div class="site-title-block">
+                <h1 class="site-title">Wendy Chen</h1>
+                <p class="site-description">Quality Assurance Associate</p>
+            </div>
+
+            <!-- Navigation & Social buttons -->
+            <div class="site-nav">
+                <!-- Main menu -->
+                <ul id="nav" class="site-main-menu">
+                    <!-- About Me Subpage link -->
+                    <li>
+                        <a class="pt-trigger" href="#home" data-animation="14" data-goto="1">Home</a>
+                        <!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+                    </li>
+                    <!-- /About Me Subpage link -->
+                    <!-- About Me Subpage link -->
+                    <li>
+                        <a class="pt-trigger" href="#about_me" data-animation="14" data-goto="2">About Me</a>
+                    </li>
+                    <!-- /About Me Subpage link -->
+                    <li>
+                        <a class="pt-trigger" href="#resume" data-animation="14" data-goto="3">Resume</a>
+                    </li>
+                    <li>
+                        <a class="pt-trigger" href="#portfolio" data-animation="14" data-goto="4">Portfolio</a>
+                    </li>
+                    <!-- <li>
+              <a class="pt-trigger" href="#blog" data-animation="14" data-goto="5">Blog</a>
+            </li> -->
+                    <li>
+                        <a class="pt-trigger" href="#contact" data-animation="14" data-goto="5">Contact</a>
+                    </li>
+                </ul>
+                <!-- /Main menu -->
+
+                <!-- Social buttons -->
+                <ul class="social-links">
+                    <li><a class="tip social-button" href="https://www.linkedin.com/in/wendy-chen-75a6ab26/"  target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+                    <li><a class="tip social-button" href="https://github.com/babivokalz"  target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
+                </ul>
+                <!-- /Social buttons -->
+            </div>
+            <!-- Navigation & Social buttons -->
+        </header>
+        <!-- /Header -->
+
+        <!-- Mobile Header -->
+        <div class="mobile-header mobile-visible">
+            <div class="mobile-logo-container">
+                <div class="mobile-site-title">Wendy Chen</div>
+            </div>
+
+            <a class="menu-toggle mobile-visible">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!-- /Mobile Header -->
+
+        <!-- Main Content -->
+        <div id="main" class="site-main">
+            <!-- Page changer wrapper -->
+            <div class="pt-wrapper">
+                <!-- Subpages -->
+                <div class="subpages">
+
+                    <!-- Home Subpage -->
+                    <section class="pt-page pt-page-1 section-with-bg section-paddings-0"
+                        style="background-image: url(assets/images/pink-background.jpg);" data-id="home">
+                        <div class="home-page-block-bg">
+                            <div class="mask"></div>
+                        </div>
+                        <div class="home-page-block">
+                            <div class="v-align">
+                                <h2>Wendy L. Chen</h2>
+                                <div id="rotate" class="text-rotate">
+                                    <div>
+                                        <p class="home-page-description">Quality Assurance Associate</p>
+                                    </div>
+                                    <div>
+                                        <p class="home-page-description">Web-developer</p>
+                                    </div>
+                                </div>
+
+                                <div class="block end" style="text-align: center">
+                                    <ul class="info-list">
+                                        <li><span class="title">Location</span><span class="value" style="padding-left:25px">Morrisville, NC</span></li>
+                                        <li><span class="title">E-mail</span><span class="value" style="padding-left:25px"><a href="mailto:wlchen1105@gmail.com">wlchen1105@gmail.com</a></span></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End of Home Subpage -->
+
+
+ 
+  </body>
+</html>
